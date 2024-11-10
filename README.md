@@ -1,6 +1,13 @@
-# Iomega11GithubIo
+# Personal website
 
+This repository aims to present all the projects I'm working on during my spare time, or the thing I've worked on in the past.
+
+The main website uses Angular.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+
+## Contributing
+
+The main branch is there for storing the source code. The compiled website is on the **gh-pages** branch and is automatically fed using the command `ng deploy`.
 
 ## Development server
 
