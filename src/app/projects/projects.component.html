@@ -1,0 +1,24 @@
+<h2>Personal Projects</h2>
+<p>Throughout the time, I worked on several projects during my spare time. Here are few of them.</p>
+<div class="flex flex-row justify-content-center">
+
+  <p-card *ngFor="let item of items" class="m-2 text-center" [header]="item.header" [style]="{width: '250px'}">
+    <ng-template pTemplate="header">
+      <div class="flex flex-row justify-content-center pt-2">
+        <span>
+          <img alt="Image for Project 1" src="linkedin_profile_picture.jpg"
+               width="70px" height="70px"
+               style="border-radius: 50%"/>
+        </span>
+      </div>
+    </ng-template>
+    <p>
+      Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet...
+    </p>
+    <ng-template pTemplate="footer">
+      <div class="flex gap-3 mt-1">
+        <p-button label="Read More" class="w-full" styleClass="w-full" />
+      </div>
+    </ng-template>
+  </p-card>
+</div>
